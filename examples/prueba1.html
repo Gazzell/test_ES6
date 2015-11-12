@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRUEBA 1</title>
+</head>
+<body>
+    <script src="../dist/out.min.js"></script>
+    <script>
+        //var cp = new ColorPoint(25, 8, 'green');
+        //cp.toString(); // '(25, 8) in green'
+        var cp = new PACO_LIB.ColorPoint(25,8, 'green');
+        console.log(cp instanceof PACO_LIB.ColorPoint); // true
+        console.log(cp instanceof PACO_LIB.Point); // true
+    </script>
+</body>
+</html>
